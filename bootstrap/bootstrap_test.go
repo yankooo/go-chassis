@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-chassis/go-chassis/bootstrap"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/lager"
-	_ "github.com/go-chassis/go-chassis/core/registry/servicecenter"
-	_ "github.com/go-chassis/go-chassis/initiator"
+	"github.com/yankooo/go-chassis/bootstrap"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/lager"
+	_ "github.com/yankooo/go-chassis/core/registry/servicecenter"
+	_ "github.com/yankooo/go-chassis/initiator"
 	"github.com/stretchr/testify/assert"
 )
 

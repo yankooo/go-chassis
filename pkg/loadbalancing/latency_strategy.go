@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/loadbalancer"
-	"github.com/go-chassis/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/loadbalancer"
+	"github.com/yankooo/go-chassis/core/registry"
 	"github.com/go-mesh/openlogging"
 )
 

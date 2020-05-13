@@ -1,16 +1,16 @@
 package server_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/lager"
-	_ "github.com/go-chassis/go-chassis/initiator"
+	"github.com/yankooo/go-chassis/core/lager"
+	_ "github.com/yankooo/go-chassis/initiator"
 
 	"errors"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/core/registry/mock"
-	"github.com/go-chassis/go-chassis/core/server"
-	_ "github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/core/registry/mock"
+	"github.com/yankooo/go-chassis/core/server"
+	_ "github.com/yankooo/go-chassis/server/restful"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"

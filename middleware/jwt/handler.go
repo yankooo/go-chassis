@@ -24,11 +24,11 @@ import (
 	"strings"
 
 	"github.com/emicklei/go-restful"
-	"github.com/go-chassis/go-chassis/core/handler"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/status"
-	"github.com/go-chassis/go-chassis/security/token"
-	restfulserver "github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/status"
+	"github.com/yankooo/go-chassis/security/token"
+	restfulserver "github.com/yankooo/go-chassis/server/restful"
 	"github.com/go-mesh/openlogging"
 )
 

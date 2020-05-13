@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/core/lager"
-	example "github.com/go-chassis/go-chassis/examples/fileupload/server/schemas"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/core/lager"
+	example "github.com/yankooo/go-chassis/examples/fileupload/server/schemas"
 )
 
 //if you use go run main.go instead of binary run, plz export CHASSIS_HOME=/{path}/{to}/fileupload/server/

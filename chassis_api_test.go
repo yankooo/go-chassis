@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/core/server"
-	"github.com/go-chassis/go-chassis/pkg/util/fileutil"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/server"
+	"github.com/yankooo/go-chassis/pkg/util/fileutil"
 
-	"github.com/go-chassis/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/config/model"
 	"github.com/stretchr/testify/assert"
 	"syscall"
 )

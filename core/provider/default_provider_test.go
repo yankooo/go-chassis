@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/core/provider"
-	"github.com/go-chassis/go-chassis/examples/schemas"
-	pb "github.com/go-chassis/go-chassis/examples/schemas/helloworld"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/provider"
+	"github.com/yankooo/go-chassis/examples/schemas"
+	pb "github.com/yankooo/go-chassis/examples/schemas/helloworld"
 
 	"github.com/stretchr/testify/assert"
 )

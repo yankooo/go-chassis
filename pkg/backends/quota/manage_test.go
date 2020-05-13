@@ -19,7 +19,7 @@ package quota_test
 
 import (
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/pkg/backends/quota"
+	"github.com/yankooo/go-chassis/pkg/backends/quota"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

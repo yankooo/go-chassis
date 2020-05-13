@@ -17,8 +17,8 @@
 package plain
 
 import (
-	security2 "github.com/go-chassis/foundation/security"
-	"github.com/go-chassis/go-chassis/security/cipher"
+	security2 "github.com/yankooo/foundation/security"
+	"github.com/yankooo/go-chassis/security/cipher"
 )
 
 //DefaultCipher is a struct

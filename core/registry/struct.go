@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/go-chassis/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/common"
 )
 
 // MicroService struct having full info about micro-service

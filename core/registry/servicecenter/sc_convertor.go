@@ -1,9 +1,9 @@
 package servicecenter
 
 import (
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
 )
 
 // ToMicroService assign sc micro-service to go chassis micro-service

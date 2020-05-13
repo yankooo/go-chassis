@@ -2,9 +2,9 @@ package profile
 
 import (
 	"github.com/emicklei/go-restful"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/core/router"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/core/router"
 	"github.com/go-mesh/openlogging"
 )
 

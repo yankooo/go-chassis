@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/pkg/rate"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/pkg/rate"
 	"github.com/stretchr/testify/assert"
 )
 

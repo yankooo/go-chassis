@@ -2,7 +2,7 @@ package client_test
 
 import (
 	"errors"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/pkg/scclient"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

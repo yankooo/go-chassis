@@ -1,12 +1,12 @@
 package client_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/pkg/scclient"
 	"github.com/stretchr/testify/assert"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
 	"github.com/go-chassis/paas-lager"
 	"github.com/go-mesh/openlogging"
 	"os"

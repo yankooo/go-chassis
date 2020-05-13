@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-chassis/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config"
 	"github.com/go-mesh/openlogging"
 )
 

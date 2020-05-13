@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-chassis/go-chassis/core/client"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
+	"github.com/yankooo/go-chassis/core/client"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
 )
 
 const (

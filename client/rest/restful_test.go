@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/client/rest"
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
+	"github.com/yankooo/go-chassis/client/rest"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
 	"github.com/stretchr/testify/assert"
 )
 

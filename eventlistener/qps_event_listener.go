@@ -2,11 +2,11 @@ package eventlistener
 
 import (
 	"github.com/go-chassis/go-archaius/event"
-	"github.com/go-chassis/go-chassis/pkg/rate"
+	"github.com/yankooo/go-chassis/pkg/rate"
 
 	"strings"
 
-	"github.com/go-chassis/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/common"
 )
 
 const (

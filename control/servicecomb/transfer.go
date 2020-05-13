@@ -6,14 +6,14 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-chassis/go-chassis/control"
-	"github.com/go-chassis/go-chassis/core/client"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/loadbalancer"
-	"github.com/go-chassis/go-chassis/pkg/backoff"
-	"github.com/go-chassis/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
+	"github.com/yankooo/go-chassis/control"
+	"github.com/yankooo/go-chassis/core/client"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/loadbalancer"
+	"github.com/yankooo/go-chassis/pkg/backoff"
+	"github.com/yankooo/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
 	"github.com/go-mesh/openlogging"
 )
 

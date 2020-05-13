@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/core/server"
-	"github.com/go-chassis/go-chassis/examples/circuit/server/resource"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/server"
+	"github.com/yankooo/go-chassis/examples/circuit/server/resource"
 )
 
 //if you use go run main.go instead of binary run, plz export CHASSIS_HOME=/{path}/{to}/rest/server/

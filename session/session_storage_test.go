@@ -2,12 +2,12 @@ package session_test
 
 import (
 	"context"
-	"github.com/go-chassis/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/lager"
 	"net/http"
 	"testing"
 	"time"
 
-	"github.com/go-chassis/go-chassis/session"
+	"github.com/yankooo/go-chassis/session"
 	"github.com/stretchr/testify/assert"
 )
 

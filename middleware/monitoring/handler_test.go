@@ -20,7 +20,7 @@ package monitoring_test
 import (
 	"errors"
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/pkg/metrics"
+	"github.com/yankooo/go-chassis/pkg/metrics"
 	"github.com/prometheus/common/expfmt"
 	"io"
 	"net/http"
@@ -28,11 +28,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/handler"
-	_ "github.com/go-chassis/go-chassis/middleware/monitoring"
-	"github.com/go-chassis/go-chassis/server/restful"
-	"github.com/go-chassis/go-chassis/server/restful/restfultest"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/handler"
+	_ "github.com/yankooo/go-chassis/middleware/monitoring"
+	"github.com/yankooo/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis/server/restful/restfultest"
 	"github.com/stretchr/testify/assert"
 )
 

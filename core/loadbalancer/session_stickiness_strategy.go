@@ -3,10 +3,10 @@ package loadbalancer
 import (
 	"sync"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/session"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/session"
 )
 
 var (

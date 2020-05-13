@@ -3,12 +3,12 @@ package core
 import (
 	"strings"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/handler"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/loadbalancer"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
-	"github.com/go-chassis/go-chassis/session"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/loadbalancer"
+	"github.com/yankooo/go-chassis/pkg/runtime"
+	"github.com/yankooo/go-chassis/session"
 	"github.com/go-mesh/openlogging"
 )
 

@@ -1,16 +1,16 @@
 package endpoint_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/endpoint"
-	_ "github.com/go-chassis/go-chassis/initiator"
+	"github.com/yankooo/go-chassis/core/endpoint"
+	_ "github.com/yankooo/go-chassis/initiator"
 	"path/filepath"
 
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/core/registry"
-	_ "github.com/go-chassis/go-chassis/core/registry/servicecenter"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/core/registry"
+	_ "github.com/yankooo/go-chassis/core/registry/servicecenter"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-chassis/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/common"
 	"os"
 	"testing"
 	"time"

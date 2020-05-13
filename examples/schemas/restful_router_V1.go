@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis/server/restful"
 )
 
 // RestFulRouterA is a struct used for implementation of restfull router program

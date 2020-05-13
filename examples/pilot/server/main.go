@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/go-chassis/go-chassis"
-	_ "github.com/go-chassis/go-chassis/bootstrap"
-	_ "github.com/go-chassis/go-chassis/configserver"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/examples/schemas"
+	"github.com/yankooo/go-chassis"
+	_ "github.com/yankooo/go-chassis/bootstrap"
+	_ "github.com/yankooo/go-chassis/configserver"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/examples/schemas"
 )
 
 //if you use go run main.go instead of binary run, plz export CHASSIS_HOME=/path/to/conf/folder

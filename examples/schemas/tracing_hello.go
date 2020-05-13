@@ -5,10 +5,10 @@ import (
 
 	"log"
 
-	"github.com/go-chassis/go-chassis/client/rest"
-	"github.com/go-chassis/go-chassis/core"
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis/client/rest"
+	"github.com/yankooo/go-chassis/core"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
+	rf "github.com/yankooo/go-chassis/server/restful"
 )
 
 //TracingHello is a struct

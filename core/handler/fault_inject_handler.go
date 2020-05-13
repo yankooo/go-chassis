@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/fault"
-	"github.com/go-chassis/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/fault"
+	"github.com/yankooo/go-chassis/core/invocation"
 	"github.com/go-mesh/openlogging"
 )
 

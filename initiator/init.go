@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/pkg/util/fileutil"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/pkg/util/fileutil"
 )
 
 // LoggerOptions has the configuration about logging

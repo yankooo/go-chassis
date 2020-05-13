@@ -1,6 +1,6 @@
 package client
 
-import "github.com/go-chassis/go-chassis/pkg/scclient/proto"
+import "github.com/yankooo/go-chassis/pkg/scclient/proto"
 
 // ExistenceIDResponse is a structure for microservice with serviceID, schemaID and InstanceID
 type ExistenceIDResponse struct {

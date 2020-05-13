@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	rf "github.com/yankooo/go-chassis/server/restful"
 )
 
 var l sync.Mutex

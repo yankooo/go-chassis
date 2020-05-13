@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
 	"log"
 	"os"
 	"time"

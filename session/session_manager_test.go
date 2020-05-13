@@ -6,8 +6,8 @@ import (
 
 	"net/http"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/invocation"
 	"github.com/stretchr/testify/assert"
 )
 

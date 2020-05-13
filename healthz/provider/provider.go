@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/server"
-	"github.com/go-chassis/go-chassis/healthz/client"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/server"
+	"github.com/yankooo/go-chassis/healthz/client"
+	"github.com/yankooo/go-chassis/pkg/runtime"
+	rf "github.com/yankooo/go-chassis/server/restful"
 )
 
 var (

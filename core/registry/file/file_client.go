@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
-	"github.com/go-chassis/go-chassis/pkg/util/fileutil"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/util/fileutil"
 	"github.com/go-mesh/openlogging"
 )
 

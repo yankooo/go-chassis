@@ -3,8 +3,8 @@ package registry
 import (
 	"fmt"
 
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/pkg/util/tags"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/pkg/util/tags"
 	"github.com/go-mesh/openlogging"
 )
 

@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/common"
 )
 
 // GetRegistratorType returns the Type of service registry

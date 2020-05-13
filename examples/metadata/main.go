@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/examples/metadata/resource"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/examples/metadata/resource"
 )
 
 //if you use go run main.go instead of binary run, plz export CHASSIS_HOME=/{path}/{to}/discovery/server/

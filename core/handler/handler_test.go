@@ -1,14 +1,14 @@
 package handler_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/handler"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/core/provider"
-	"github.com/go-chassis/go-chassis/pkg/util/fileutil"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/provider"
+	"github.com/yankooo/go-chassis/pkg/util/fileutil"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"os"

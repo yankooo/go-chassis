@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/middleware/jwt"
-	"github.com/go-chassis/go-chassis/security/token"
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/middleware/jwt"
+	"github.com/yankooo/go-chassis/security/token"
+	rf "github.com/yankooo/go-chassis/server/restful"
 	"github.com/go-mesh/openlogging"
 )
 

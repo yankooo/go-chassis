@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/pkg/util/fileutil"
+	"github.com/yankooo/go-chassis/pkg/util/fileutil"
 	"time"
 )
 

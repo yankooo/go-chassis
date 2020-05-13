@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/go-chassis/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/common"
 )
 
 //Localhost is a function which returns localhost IP address

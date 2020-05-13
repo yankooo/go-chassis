@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	chassisClient "github.com/go-chassis/go-chassis/core/client"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/healthz/client"
+	chassisClient "github.com/yankooo/go-chassis/core/client"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/healthz/client"
 	"github.com/go-mesh/openlogging"
 )
 

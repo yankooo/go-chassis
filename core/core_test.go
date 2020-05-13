@@ -1,22 +1,22 @@
 package core_test
 
 import (
-	_ "github.com/go-chassis/go-chassis/initiator"
+	_ "github.com/yankooo/go-chassis/initiator"
 
 	"context"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/client/rest"
-	"github.com/go-chassis/go-chassis/core"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	_ "github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/examples/schemas/helloworld"
-	"github.com/go-chassis/go-chassis/pkg/util/tags"
+	"github.com/yankooo/go-chassis/client/rest"
+	"github.com/yankooo/go-chassis/core"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	_ "github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/examples/schemas/helloworld"
+	"github.com/yankooo/go-chassis/pkg/util/tags"
 
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
 	"github.com/stretchr/testify/assert"
 )
 

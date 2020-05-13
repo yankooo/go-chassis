@@ -3,13 +3,13 @@ package servicecomb_test
 import (
 	"testing"
 
-	"github.com/go-chassis/go-chassis/control"
-	"github.com/go-chassis/go-chassis/control/servicecomb"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/core/loadbalancer"
-	"github.com/go-chassis/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
+	"github.com/yankooo/go-chassis/control"
+	"github.com/yankooo/go-chassis/control/servicecomb"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/loadbalancer"
+	"github.com/yankooo/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
 	"github.com/stretchr/testify/assert"
 )
 

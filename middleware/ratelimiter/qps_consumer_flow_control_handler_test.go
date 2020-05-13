@@ -7,18 +7,18 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/control"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/handler"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/examples/schemas/helloworld"
-	"github.com/go-chassis/go-chassis/middleware/ratelimiter"
-	"github.com/go-chassis/go-chassis/pkg/util/fileutil"
+	"github.com/yankooo/go-chassis/control"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/examples/schemas/helloworld"
+	"github.com/yankooo/go-chassis/middleware/ratelimiter"
+	"github.com/yankooo/go-chassis/pkg/util/fileutil"
 	"github.com/stretchr/testify/assert"
 
-	_ "github.com/go-chassis/go-chassis/control/servicecomb"
+	_ "github.com/yankooo/go-chassis/control/servicecomb"
 )
 
 func init() {

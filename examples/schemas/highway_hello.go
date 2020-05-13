@@ -3,7 +3,7 @@ package schemas
 import (
 	"context"
 
-	"github.com/go-chassis/go-chassis/examples/schemas/helloworld"
+	"github.com/yankooo/go-chassis/examples/schemas/helloworld"
 )
 
 //HelloServer is a struct

@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	_ "github.com/go-chassis/go-chassis/core/handler"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/loadbalancer"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/pkg/loadbalancing"
-	"github.com/go-chassis/go-chassis/pkg/util/tags"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	_ "github.com/yankooo/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/loadbalancer"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/pkg/loadbalancing"
+	"github.com/yankooo/go-chassis/pkg/util/tags"
 	"github.com/stretchr/testify/assert"
 )
 

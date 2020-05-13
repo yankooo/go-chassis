@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-chassis/go-chassis/third_party/forked/afex/hystrix-go/hystrix/rolling"
+	"github.com/yankooo/go-chassis/third_party/forked/afex/hystrix-go/hystrix/rolling"
 	"github.com/go-mesh/openlogging"
 )
 

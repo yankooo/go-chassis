@@ -1,8 +1,8 @@
 package fault
 
 import (
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/invocation"
 )
 
 // InjectFault inject fault

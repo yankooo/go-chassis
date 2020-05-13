@@ -1,12 +1,12 @@
 package config_test
 
 import (
-	// "github.com/go-chassis/go-chassis/core/common"
+	// "github.com/yankooo/go-chassis/core/common"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/pkg/backoff"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/pkg/backoff"
 	"github.com/stretchr/testify/assert"
 )
 

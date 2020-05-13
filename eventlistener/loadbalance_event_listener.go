@@ -2,8 +2,8 @@ package eventlistener
 
 import (
 	"github.com/go-chassis/go-archaius/event"
-	"github.com/go-chassis/go-chassis/control/servicecomb"
-	"github.com/go-chassis/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/control/servicecomb"
+	"github.com/yankooo/go-chassis/core/config"
 	"github.com/go-mesh/openlogging"
 )
 

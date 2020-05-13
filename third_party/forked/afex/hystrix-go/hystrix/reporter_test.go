@@ -1,8 +1,8 @@
 package hystrix_test
 
 import (
-	"github.com/go-chassis/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
-	"github.com/go-chassis/go-chassis/third_party/forked/afex/hystrix-go/hystrix/reporter"
+	"github.com/yankooo/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
+	"github.com/yankooo/go-chassis/third_party/forked/afex/hystrix-go/hystrix/reporter"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

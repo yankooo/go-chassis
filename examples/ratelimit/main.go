@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/go-chassis/go-chassis"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/server/restful"
+	"github.com/yankooo/go-chassis"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/server/restful"
 	"net/http"
 )
 

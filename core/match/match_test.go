@@ -19,9 +19,9 @@ package match_test
 
 import (
 	"context"
-	"github.com/go-chassis/go-chassis/client/rest"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/match"
+	"github.com/yankooo/go-chassis/client/rest"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/match"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

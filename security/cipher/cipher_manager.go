@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-chassis/foundation/security"
-	"github.com/go-chassis/go-chassis/pkg/goplugin"
+	"github.com/yankooo/foundation/security"
+	"github.com/yankooo/go-chassis/pkg/goplugin"
 	"github.com/go-mesh/openlogging"
 )
 

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
 	"github.com/go-mesh/openlogging"
 	"net/url"
 )

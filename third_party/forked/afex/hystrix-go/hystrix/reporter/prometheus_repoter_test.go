@@ -19,7 +19,7 @@ package reporter
 
 import (
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
+	"github.com/yankooo/go-chassis/third_party/forked/afex/hystrix-go/hystrix"
 	"testing"
 	"time"
 )

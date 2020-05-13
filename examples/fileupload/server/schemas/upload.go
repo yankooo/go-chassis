@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	rf "github.com/yankooo/go-chassis/server/restful"
 )
 
 //RestFulUpload is a struct used to implement restful upload

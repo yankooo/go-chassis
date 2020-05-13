@@ -1,16 +1,16 @@
 package tls_test
 
 import (
-	_ "github.com/go-chassis/go-chassis/initiator"
+	_ "github.com/yankooo/go-chassis/initiator"
 
 	"crypto/tls"
 	"io"
 	"os"
 	"testing"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	chassisTLS "github.com/go-chassis/go-chassis/core/tls"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	chassisTLS "github.com/yankooo/go-chassis/core/tls"
 	"github.com/stretchr/testify/assert"
 )
 

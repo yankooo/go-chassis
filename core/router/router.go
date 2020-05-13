@@ -3,14 +3,14 @@ package router
 
 import (
 	"errors"
-	"github.com/go-chassis/go-chassis/core/config"
-	mr "github.com/go-chassis/go-chassis/core/match"
+	"github.com/yankooo/go-chassis/core/config"
+	mr "github.com/yankooo/go-chassis/core/match"
 	"strings"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/registry"
-	wp "github.com/go-chassis/go-chassis/core/router/weightpool"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/registry"
+	wp "github.com/yankooo/go-chassis/core/router/weightpool"
 	"github.com/go-mesh/openlogging"
 )
 

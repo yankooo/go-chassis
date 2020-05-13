@@ -3,12 +3,12 @@ package main
 import (
 	"context"
 
-	"github.com/go-chassis/go-chassis"
-	_ "github.com/go-chassis/go-chassis/bootstrap"
-	"github.com/go-chassis/go-chassis/client/rest"
-	"github.com/go-chassis/go-chassis/core"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
+	"github.com/yankooo/go-chassis"
+	_ "github.com/yankooo/go-chassis/bootstrap"
+	"github.com/yankooo/go-chassis/client/rest"
+	"github.com/yankooo/go-chassis/core"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
 )
 
 //if you use go run main.go instead of binary run, plz export CHASSIS_HOME=/{path}/{to}/rest/client/

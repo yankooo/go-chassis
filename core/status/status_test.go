@@ -18,7 +18,7 @@
 package status_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/status"
+	"github.com/yankooo/go-chassis/core/status"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

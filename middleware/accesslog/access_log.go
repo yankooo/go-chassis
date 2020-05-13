@@ -6,11 +6,11 @@ import (
 	"github.com/emicklei/go-restful"
 	"github.com/go-mesh/openlogging"
 
-	"github.com/go-chassis/go-chassis/core/handler"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/initiator"
-	"github.com/go-chassis/go-chassis/pkg/util/iputil"
+	"github.com/yankooo/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/initiator"
+	"github.com/yankooo/go-chassis/pkg/util/iputil"
 )
 
 // Record recorder

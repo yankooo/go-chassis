@@ -2,9 +2,9 @@ package eventlistener_test
 
 import (
 	"github.com/go-chassis/go-archaius/event"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/eventlistener"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/eventlistener"
 	"os"
 	"testing"
 )

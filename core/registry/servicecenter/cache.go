@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/pkg/runtime"
+	"github.com/yankooo/go-chassis/pkg/scclient"
 
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
 	"github.com/go-mesh/openlogging"
 	"k8s.io/apimachinery/pkg/util/sets"
 )

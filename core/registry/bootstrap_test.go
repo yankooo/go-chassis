@@ -1,12 +1,12 @@
 package registry_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/schema"
-	"github.com/go-chassis/go-chassis/core/lager"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/core/registry/mock"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/schema"
+	"github.com/yankooo/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/core/registry/mock"
+	"github.com/yankooo/go-chassis/pkg/runtime"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path/filepath"

@@ -1,6 +1,6 @@
 package client
 
-import "github.com/go-chassis/go-chassis/pkg/scclient/proto"
+import "github.com/yankooo/go-chassis/pkg/scclient/proto"
 
 const (
 	//EventCreate is a constant of type string

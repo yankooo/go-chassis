@@ -19,9 +19,9 @@ package match
 
 import (
 	"fmt"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
 	"github.com/go-mesh/openlogging"
 	"gopkg.in/yaml.v2"
 	"strings"

@@ -19,7 +19,7 @@ cse:
 1.必须在main.go中import 华为的扩展组件用于自动查询服务的endpoint
 
 ```go
-import _ "github.com/go-chassis/go-chassis-cloud/provider/huawei/engine"
+import _ "github.com/yankooo/go-chassis-cloud/provider/huawei/engine"
 ```
 2.在chassis.yaml中设置引擎名字
 ```yaml

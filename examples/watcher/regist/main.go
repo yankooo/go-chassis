@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
 	"os"
 	"time"
 )

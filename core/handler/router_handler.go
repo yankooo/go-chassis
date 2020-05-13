@@ -1,12 +1,12 @@
 package handler
 
 import (
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/core/router"
-	"github.com/go-chassis/go-chassis/core/status"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/core/router"
+	"github.com/yankooo/go-chassis/core/status"
+	"github.com/yankooo/go-chassis/pkg/runtime"
 )
 
 // RouterHandler router handler

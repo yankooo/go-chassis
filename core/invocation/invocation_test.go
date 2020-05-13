@@ -2,7 +2,7 @@ package invocation_test
 
 import (
 	"context"
-	"github.com/go-chassis/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/invocation"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

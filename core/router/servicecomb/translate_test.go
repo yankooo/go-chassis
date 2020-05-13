@@ -4,7 +4,7 @@ package servicecomb
 import (
 	"testing"
 
-	"github.com/go-chassis/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config"
 	"github.com/go-mesh/openlogging"
 	"github.com/stretchr/testify/assert"
 )

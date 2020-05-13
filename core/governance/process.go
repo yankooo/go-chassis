@@ -18,8 +18,8 @@
 package governance
 
 import (
-	"github.com/go-chassis/go-chassis/core/match"
-	"github.com/go-chassis/go-chassis/pkg/rate"
+	"github.com/yankooo/go-chassis/core/match"
+	"github.com/yankooo/go-chassis/pkg/rate"
 	"github.com/go-mesh/openlogging"
 	"gopkg.in/yaml.v2"
 	"strings"

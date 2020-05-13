@@ -3,8 +3,8 @@ package registry
 import (
 	"strings"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/pkg/runtime"
 	"github.com/go-mesh/openlogging"
 	"github.com/patrickmn/go-cache"
 )

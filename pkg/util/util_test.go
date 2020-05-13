@@ -1,7 +1,7 @@
 package util_test
 
 import (
-	"github.com/go-chassis/go-chassis/pkg/util"
+	"github.com/yankooo/go-chassis/pkg/util"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

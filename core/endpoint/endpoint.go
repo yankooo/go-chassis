@@ -3,9 +3,9 @@ package endpoint
 import (
 	"errors"
 	"fmt"
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/pkg/runtime"
-	"github.com/go-chassis/go-chassis/pkg/util/tags"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/pkg/runtime"
+	"github.com/yankooo/go-chassis/pkg/util/tags"
 	"github.com/go-mesh/openlogging"
 )
 

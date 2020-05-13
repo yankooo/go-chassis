@@ -19,7 +19,7 @@
 package basicauth
 
 import (
-	"github.com/go-chassis/go-chassis/core/handler"
+	"github.com/yankooo/go-chassis/core/handler"
 	"net/http"
 )
 

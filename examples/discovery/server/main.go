@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/go-chassis/go-chassis"
-	_ "github.com/go-chassis/go-chassis/bootstrap"
-	"github.com/go-chassis/go-chassis/examples/schemas"
-	_ "github.com/go-chassis/go-chassis/healthz/provider"
-	_ "github.com/go-chassis/go-chassis/middleware/monitoring"
+	"github.com/yankooo/go-chassis"
+	_ "github.com/yankooo/go-chassis/bootstrap"
+	"github.com/yankooo/go-chassis/examples/schemas"
+	_ "github.com/yankooo/go-chassis/healthz/provider"
+	_ "github.com/yankooo/go-chassis/middleware/monitoring"
 	"github.com/go-mesh/openlogging"
 )
 

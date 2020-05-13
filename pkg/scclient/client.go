@@ -15,10 +15,10 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff"
-	"github.com/go-chassis/foundation/httpclient"
-	bo "github.com/go-chassis/go-chassis/pkg/backoff"
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
-	"github.com/go-chassis/go-chassis/pkg/util/httputil"
+	"github.com/yankooo/foundation/httpclient"
+	bo "github.com/yankooo/go-chassis/pkg/backoff"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/util/httputil"
 	"github.com/go-mesh/openlogging"
 	"github.com/gorilla/websocket"
 )

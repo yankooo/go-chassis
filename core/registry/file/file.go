@@ -3,11 +3,11 @@ package file
 import (
 	"fmt"
 
-	"github.com/go-chassis/go-chassis/core/registry"
-	"github.com/go-chassis/go-chassis/core/registry/servicecenter"
-	"github.com/go-chassis/go-chassis/pkg/scclient"
-	"github.com/go-chassis/go-chassis/pkg/scclient/proto"
-	"github.com/go-chassis/go-chassis/pkg/util/tags"
+	"github.com/yankooo/go-chassis/core/registry"
+	"github.com/yankooo/go-chassis/core/registry/servicecenter"
+	"github.com/yankooo/go-chassis/pkg/scclient"
+	"github.com/yankooo/go-chassis/pkg/scclient/proto"
+	"github.com/yankooo/go-chassis/pkg/util/tags"
 )
 
 // constant string for file

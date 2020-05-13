@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/go-chassis/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/core/invocation"
 	"strings"
 	"sync"
 
@@ -10,10 +10,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	chassisTLS "github.com/go-chassis/go-chassis/core/tls"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	chassisTLS "github.com/yankooo/go-chassis/core/tls"
 	"github.com/go-mesh/openlogging"
 )
 

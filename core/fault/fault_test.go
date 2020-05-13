@@ -1,13 +1,13 @@
 package fault_test
 
 import (
-	"github.com/go-chassis/go-chassis/core/common"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/invocation"
-	"github.com/go-chassis/go-chassis/pkg/util/tags"
+	"github.com/yankooo/go-chassis/core/common"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/invocation"
+	"github.com/yankooo/go-chassis/pkg/util/tags"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-chassis/go-chassis/core/fault"
+	"github.com/yankooo/go-chassis/core/fault"
 	"testing"
 	"time"
 )

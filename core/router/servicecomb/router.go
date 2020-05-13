@@ -2,8 +2,8 @@ package servicecomb
 
 import (
 	"github.com/go-chassis/go-archaius"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/router"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/router"
 	"github.com/go-mesh/openlogging"
 	"sync"
 )

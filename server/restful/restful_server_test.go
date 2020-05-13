@@ -1,7 +1,7 @@
 package restful
 
 import (
-	"github.com/go-chassis/go-chassis/core/lager"
+	"github.com/yankooo/go-chassis/core/lager"
 	"log"
 	"net/http"
 	"os"
@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	rf "github.com/emicklei/go-restful"
-	"github.com/go-chassis/go-chassis/core/config"
-	"github.com/go-chassis/go-chassis/core/config/model"
-	"github.com/go-chassis/go-chassis/core/server"
+	"github.com/yankooo/go-chassis/core/config"
+	"github.com/yankooo/go-chassis/core/config/model"
+	"github.com/yankooo/go-chassis/core/server"
 	"github.com/stretchr/testify/assert"
 )
 

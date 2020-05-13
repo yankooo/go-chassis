@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	rf "github.com/yankooo/go-chassis/server/restful"
 )
 
 var num = rand.Intn(100)

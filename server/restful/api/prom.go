@@ -4,7 +4,7 @@ package api
 
 import (
 	"github.com/emicklei/go-restful"
-	"github.com/go-chassis/go-chassis/pkg/metrics"
+	"github.com/yankooo/go-chassis/pkg/metrics"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

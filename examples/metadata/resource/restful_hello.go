@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	rf "github.com/go-chassis/go-chassis/server/restful"
+	rf "github.com/yankooo/go-chassis/server/restful"
 )
 
 //RestFulHello is a struct used for implementation of restful hello program
