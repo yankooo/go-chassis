@@ -9,7 +9,7 @@ import (
 
 //if you use go run main.go instead of binary run, plz export CHASSIS_HOME=/{path}/{to}/rest/server/
 
-func main() {
+func main(){
 	chassis.RegisterSchema("rest", &schemas.RestFulHello{}, server.WithSchemaID("RestHelloService"))
 	if err := chassis.Init(); err != nil {
 		openlogging.Fatal("Init failed." + err.Error())
