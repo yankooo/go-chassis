@@ -46,6 +46,8 @@ github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3/go.mod h1:VJ0WA2NB
 github.com/gin-gonic/gin v1.4.0/go.mod h1:OW2EZn3DO8Ln9oIKOvM++LBO+5UPHJJDH72/q/3rZdM=
 github.com/go-chassis/foundation v0.1.1-0.20191113114104-2b05871e9ec4 h1:wx8JXvg/n4i8acXsBJ5zIkiK7EO2kn/HuEjKK3kSgv8=
 github.com/go-chassis/foundation v0.1.1-0.20191113114104-2b05871e9ec4/go.mod h1:21/ajGtgJlWTCeM0TxGJdRhO8bJkKirWyV8Stlh6g6c=
+github.com/go-chassis/foundation v0.1.1-0.20200511164358-2781f6a671a4 h1:WB33Y723tbsDn1IAIWAIGoqu+ZE+Qtv8u+gVG10jItI=
+github.com/go-chassis/foundation v0.1.1-0.20200511164358-2781f6a671a4/go.mod h1:21/ajGtgJlWTCeM0TxGJdRhO8bJkKirWyV8Stlh6g6c=
 github.com/go-chassis/go-archaius v1.2.1/go.mod h1:gVP52u/jCU0fgUjXdUW1VLp5YLLJ+Yl2zoOPrLM/WOM=
 github.com/go-chassis/go-archaius v1.3.0 h1:ahzyd4QHvN+0OiJCuISpmceqv2CsoRmWs3e2gXAeTzA=
 github.com/go-chassis/go-archaius v1.3.0/go.mod h1:nzRL1sSodtgeCZMzCNu0y2LPH5zz7chp8uaQ0GS0x6I=
