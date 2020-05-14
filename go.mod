@@ -1,4 +1,4 @@
-module github.com/yankooo/go-chassis
+module github.com/yankooo/go-chassis.v2
 
 require (
 	github.com/cenkalti/backoff v2.0.0+incompatible
