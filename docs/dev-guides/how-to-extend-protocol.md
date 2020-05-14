@@ -3,7 +3,7 @@
 
 ---
 
-框架支持[grpc协议](https://github.com/go-chassis/go-chassis-protocol)，
+框架支持[grpc协议](https://-protocol)，
 用户可扩展自己的RPC协议，并使用RPCInvoker调用
 
 ## 如何实现

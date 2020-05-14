@@ -8,7 +8,7 @@ go mod init
 ```
 3.Add go chassis 
 ```bash
-GO111MODULE=on go get github.com/go-chassis/go-chassis
+GO111MODULE=on go get 
 ```
 
 4.Use go mod

@@ -159,7 +159,7 @@ func BenchmarkBizKeepConsumerHandler_Handler(b *testing.B) {
 	c := handler.Chain{}
 	c.AddHandler(&circuit.BizKeeperConsumerHandler{})
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/client/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/client/")
 
 	config.Init()
 	opts := control.Options{

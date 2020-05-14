@@ -227,7 +227,7 @@ github.com/prometheus/common (v0.2.0)
 github.com/prometheus/procfs (v0.0.0-20190117184657-bf6a532e95b1)
 github.com/go-chassis/foundation (v0.0.0-20190621030543-c3b63f787f4c)
 github.com/go-chassis/go-archaius (v0.24.0)
-github.com/go-chassis/go-chassis-config (v0.14.0)
+-config (v0.14.0)
 github.com/go-chassis/paas-lager (v1.0.2-0.20190328010332-cf506050ddb2)
 
 ================================================================

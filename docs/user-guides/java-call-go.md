@@ -7,7 +7,7 @@ go对应的框架为go-chassis，他们之间可以通过servicecomb-service-cen
 
 请注意，java调用go时，反序列化需要用到schema中的x-java-interface标示所需要的class，但是，go-chassis并不能帮助你生成，需要你把这个参数添加到schema中，所以，请在chassis.yaml中设定 noRefreshSchema: true，表示不会自动生成schema，否则每次启动都会被覆盖。除此之外，并不需要任何的特殊设置。
 
-代码请参考https://github.com/go-chassis/go-chassis-examples/java-call-go
+代码请参考https://-examples/java-call-go
 
 ## Java as provider
 

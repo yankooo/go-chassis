@@ -40,7 +40,7 @@ const MockError = "movk error"
 func TestSrcMgr(t *testing.T) {
 
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/server/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/server/")
 	//config.Init()
 
 	err := config.Init()
@@ -98,7 +98,7 @@ func TestSrcMgr(t *testing.T) {
 func TestSrcMgrErr(t *testing.T) {
 
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/server/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/server/")
 	//config.Init()
 
 	err := config.Init()

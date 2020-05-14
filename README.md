@@ -1,8 +1,8 @@
 ![](logo.png)
 
 [![Build Status](https://travis-ci.com/go-chassis/go-chassis.svg?branch=master)](https://travis-ci.com/go-chassis/go-chassis)
-[![Coverage Status](https://coveralls.io/repos/github/go-chassis/go-chassis/badge.svg)](https://coveralls.io/github/go-chassis/go-chassis) [![Go Report Card](https://goreportcard.com/badge/github.com/go-chassis/go-chassis)](https://goreportcard.com/report/github.com/go-chassis/go-chassis) [![GoDoc](https://godoc.org/github.com/go-chassis/go-chassis?status.svg)](https://godoc.org/github.com/go-chassis/go-chassis) [![HitCount](http://hits.dwyl.io/go-chassis/go-chassis.svg)](http://hits.dwyl.io/go-chassis/go-chassis)  [![Join Slack](https://img.shields.io/badge/Join-Slack-orange.svg)](https://join.slack.com/t/go-chassis/shared_invite/enQtMzk0MzAyMjEzNzEyLTRjOWE3NzNmN2IzOGZhMzZkZDFjODM1MDc5ZWI0YjcxYjM1ODNkY2RkNmIxZDdlOWI3NmQ0MTg3NzBkNGExZGU)      
-[![goproxy.cn](https://goproxy.cn/stats/github.com/go-chassis/go-chassis/badges/download-count.svg)](https://goproxy.cn)
+[![Coverage Status](https://coveralls.io/repos/github/go-chassis/go-chassis/badge.svg)](https://coveralls.io/github/go-chassis/go-chassis) [![Go Report Card](https://goreportcard.com/badge/)](https://goreportcard.com/report/) [![GoDoc](https://godoc.org/?status.svg)](https://godoc.org/) [![HitCount](http://hits.dwyl.io/go-chassis/go-chassis.svg)](http://hits.dwyl.io/go-chassis/go-chassis)  [![Join Slack](https://img.shields.io/badge/Join-Slack-orange.svg)](https://join.slack.com/t/go-chassis/shared_invite/enQtMzk0MzAyMjEzNzEyLTRjOWE3NzNmN2IzOGZhMzZkZDFjODM1MDc5ZWI0YjcxYjM1ODNkY2RkNmIxZDdlOWI3NmQ0MTg3NzBkNGExZGU)      
+[![goproxy.cn](https://goproxy.cn/stats//badges/download-count.svg)](https://goproxy.cn)
 [中文版README](README_cn.md)
 
 Go-Chassis is a microservice framework for rapid development of microservices in Go
@@ -29,7 +29,7 @@ you can use Istio configurations to control go chassis.
 # Features
  - **Pluggable registrator and discovery service**: Support Service center, istio pilot, kubernetes and file based registry, 
  fit both client side discovery and server side discovery pattern 
- - **Pluggable Protocol**: You can custom your own protocol, by default support http and grpc, go chassis define standardized [model](https://github.com/go-chassis/go-chassis/blob/master/core/invocation/invocation.go) to makes all request of different protocol lerverage same features
+ - **Pluggable Protocol**: You can custom your own protocol, by default support http and grpc, go chassis define standardized [model](https:///blob/master/core/invocation/invocation.go) to makes all request of different protocol lerverage same features
  - **Multiple server management**: you can separate API by protocols and ports
   - **Handler Chain**: Able to add your own code during service calling for client and server side
  - **rich middlewares**: based on handler chain, supply circuit breaker, rate limiting, monitoring, auth features. [see](https://go-chassis.readthedocs.io/en/latest/middleware.html)
@@ -44,7 +44,7 @@ you can use Istio configurations to control go chassis.
  - **API gateway and service mesh solution**: powered by [servicecomb-mesher](https://github.com/apache/servicecomb-mesher). 
  - **Open API 2.0 native support** go chassis will automatically generate Open API 2.0 doc and register it to service center. you can manage all the API docs in one place
 
-You can check [plugins](https://github.com/go-chassis/go-chassis-plugins) to see more features
+You can check [plugins](https://-plugins) to see more features
 
 # Get started 
 1.Generate go mod
@@ -53,7 +53,7 @@ go mod init
 ```
 2.Add go chassis 
 ```shell script
-GO111MODULE=on go get github.com/go-chassis/go-chassis
+GO111MODULE=on go get 
 ```
 if you are facing network issue 
 ```bash
@@ -70,7 +70,7 @@ follow [here](docs/README.md) to generate it in local
 # Examples
 You can check examples [here](examples)
 
-NOTICE: Now examples is migrating to [here](https://github.com/go-chassis/go-chassis-examples)
+NOTICE: Now examples is migrating to [here](https://-examples)
 # Communication Protocols
 Go-Chassis supports 3 types of communication protocol.
 1. Rest - REST is an approach that leverages the HTTP protocol for communication.

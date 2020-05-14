@@ -34,7 +34,7 @@ it will affect service performance
 ## Custom Metrics
 The API is in
 ```go
-github.com/go-chassis/go-chassis/pkg/metrics/metrics.go
+/pkg/metrics/metrics.go
 ``` 
 
 

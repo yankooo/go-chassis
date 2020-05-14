@@ -13,7 +13,7 @@ cse:
     secretKey: xxx
 ```
 
-完整的[example](https://github.com/go-chassis/go-chassis-examples/tree/master/huaweicse)
+完整的[example](https://-examples/tree/master/huaweicse)
 ### 通过使用ServiceStage部署，免AKSK配置
 使用ServiceStage进行部署的微服务无需进行ak sk手工配置，框架自动发现service center等服务的地址
 1.必须在main.go中import 华为的扩展组件用于自动查询服务的endpoint
@@ -27,4 +27,4 @@ servicecomb:
   engine:
     name: test-engine
 ```
-完整的[example](https://github.com/go-chassis/go-chassis-cloud/tree/master/example)
+完整的[example](https://-cloud/tree/master/example)

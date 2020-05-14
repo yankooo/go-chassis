@@ -52,4 +52,4 @@ cse:
         default: jwt
 ```
 
-验证与完整代码https://github.com/go-chassis/go-chassis/tree/master/examples/jwt
+验证与完整代码https:///tree/master/examples/jwt

@@ -64,4 +64,4 @@ func (r *TracingHello) Trace(b *rf.Context) {
 }
 ```
 
-check [examples](https://github.com/go-chassis/go-chassis-examples/tree/master/monitoring)
+check [examples](https://-examples/tree/master/monitoring)

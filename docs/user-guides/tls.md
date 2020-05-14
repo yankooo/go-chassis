@@ -84,7 +84,7 @@ verify the other service or not, default is false.
 you must supply ca file list in here. 
 During communication as a consumer, you need to add server cert files.
 as a provider, it need to add client cert files
-check [example](https://github.com/go-chassis/go-chassis-examples/tree/master/mutualtls)
+check [example](https://-examples/tree/master/mutualtls)
 
 
 
@@ -151,7 +151,7 @@ ssl:
 ```
 
 ## Example2: Mutual TLS communication
-check complete [example](https://github.com/go-chassis/go-chassis-examples/tree/master/mutualtls)
+check complete [example](https://-examples/tree/master/mutualtls)
 ### Generate client cert file
 ```bash
 openssl genrsa -out client.key 2048

@@ -11,7 +11,7 @@ import (
 
 func TestQpsEvent(t *testing.T) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/server/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/server/")
 
 	t.Log("Test qps_event_listener.go")
 	config.Init()

@@ -14,7 +14,7 @@ import (
 
 func TestLbEventError(t *testing.T) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/server/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/server/")
 
 	config.Init()
 	eventlistener.Init()
@@ -33,7 +33,7 @@ func TestLbEventError(t *testing.T) {
 
 func TestLbEvent(t *testing.T) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/server/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/server/")
 
 	config.Init()
 	loadbalancer.Enable(archaius.GetString("cse.loadbalance.strategy.name", ""))

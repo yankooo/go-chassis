@@ -75,7 +75,7 @@ func TestPanel_GetLoadBalancing(t *testing.T) {
 
 func BenchmarkPanel_GetLoadBalancing(b *testing.B) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/client/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/client/")
 	config.Init()
 	config.GlobalDefinition.Panel.Infra = "archaius"
 	opts := control.Options{
@@ -95,7 +95,7 @@ func BenchmarkPanel_GetLoadBalancing(b *testing.B) {
 }
 func BenchmarkPanel_GetLoadBalancing2(b *testing.B) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/client/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/client/")
 	config.Init()
 	config.GlobalDefinition.Panel.Infra = "archaius"
 	opts := control.Options{
@@ -115,7 +115,7 @@ func BenchmarkPanel_GetLoadBalancing2(b *testing.B) {
 }
 func BenchmarkPanel_GetCircuitBreaker(b *testing.B) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/client/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/client/")
 	config.Init()
 	config.GlobalDefinition.Panel.Infra = "archaius"
 	opts := control.Options{
@@ -135,7 +135,7 @@ func BenchmarkPanel_GetCircuitBreaker(b *testing.B) {
 }
 func BenchmarkPanel_GetRateLimiting(b *testing.B) {
 	gopath := os.Getenv("GOPATH")
-	os.Setenv("CHASSIS_HOME", gopath+"/src/github.com/go-chassis/go-chassis/examples/discovery/client/")
+	os.Setenv("CHASSIS_HOME", gopath+"/src//examples/discovery/client/")
 	config.Init()
 	config.GlobalDefinition.Panel.Infra = "archaius"
 	opts := control.Options{

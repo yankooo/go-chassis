@@ -28,4 +28,4 @@ cse:
 
 To see the detailed use case of how to use kube discovery 
 with chassis please refer to this 
-[example](https://github.com/go-chassis/go-chassis-examples/tree/master/kube).
+[example](https://-examples/tree/master/kube).
